@@ -1,0 +1,15 @@
+#initial-input{
+    color: navy;
+    padding:5px;
+}
+
+.children{
+    margin-left: 5px;
+    color: rgb(84, 68, 226);
+}
+
+.node{
+    border-left:10px lightgrey solid;
+    margin: 3px;
+    padding-left: 5px;
+}
