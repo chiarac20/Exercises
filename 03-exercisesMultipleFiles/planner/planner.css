@@ -1,0 +1,34 @@
+
+#table {
+    background-color: rgb(179, 185, 194)
+    border-spacing: 0;
+}
+
+
+.cell {
+    border: 1px lightblue solid;
+    min-width: 40px;
+}
+
+#table-head-line {
+    min-width: 60px;
+}
+
+tr>th {
+    min-width: 60px;
+}
+
+.roomNumber {
+    background-color:lightblue;
+    border: 1px blue solid;
+}
+
+.roomType {
+    background-color: lightgray;
+    border: 1px gray solid;
+}
+
+#table-head-line>th {
+    font-size: 12px;
+    background-color: lightskyblue;
+}
