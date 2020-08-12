@@ -18,9 +18,10 @@ tr>th {
     min-width: 60px;
 }
 
-.roomNumber {
+.room-number {
     background-color:lightblue;
     border: 1px blue solid;
+    min-width: 80px;
 }
 
 .roomType {
