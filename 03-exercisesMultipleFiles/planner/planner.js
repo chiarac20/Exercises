@@ -1,3 +1,20 @@
+// import { roomInfo } from './room_info.js';
+// console.log(roomInfo);
+
+const ROOM_INFO = [{
+    id: 1,
+    type: 'DLXK'
+}, {
+    id: 3,
+    type: 'DLXK'
+}, {
+    id: 4,
+    type: 'STSB'
+}, {
+    id: 6,
+    type: 'STDB'
+}];
+
 document.getElementById("show-planner").addEventListener('click', ()=>{
     init();
     const selectedMonthYear=document.getElementById("selected-month").value;
@@ -36,7 +53,6 @@ function getDaysInMonth(date) {
 
 function createTheadContent(numberOfDays, monthName, year, monthNum){
     createEmptyTh();
-    createEmptyTh();
     const thead=document.getElementById('table-head-line');
     for (let i=1; i<=numberOfDays; i++){
         const day=document.createElement('th');
@@ -46,40 +62,30 @@ function createTheadContent(numberOfDays, monthName, year, monthNum){
     }
 }
 
-
-function createEmptyTh(){
+function createEmptyTh() {
     const thead=document.getElementById('table-head-line');
     const th=document.createElement('th');
+    th.colSpan = 2;
     thead.appendChild(th);
 }
-    
+
 function createTbodyContent(numberOfRooms, numberOfDays) {
-    for (let i=1; i<=numberOfRooms; i++){
+    ROOM_INFO.forEach(roomInfo => {
         const tr=document.createElement('tr');
         const tbody=document.getElementById('tbody');
         const th=document.createElement('th');
-        th.classList.add('roomNumber')
+        th.classList.add('room-number')
         tr.appendChild(th);
         tbody.appendChild(tr);
-        th.innerText='Room' + i;
+        th.innerText='Room ' + roomInfo.id;
         const th1=document.createElement('th');
         th1.classList.add('roomType')
         tr.appendChild(th1);
-        if (i===1| i===3| i===5| i===7| i===9|i===11|i===18|i===20|i===22){
-            th1.innerHTML='STBD'
-        } else if(i===2|i===4|i===6|i===8|i===10|i===12){
-            th1.innerHTML='DLXQ'
-        } else if(i===13|i===14|i===15|i===16){
-            th1.innerHTML='STSB'
-        } else if (i===17|i===19|i===21|i===23|i===25|i===27|i===29) {
-            th1.innerHTML='DLXK'
-        } else {
-            th1.innerHTML='JS'
-        }  
+        th1.innerHTML=roomInfo.type;
         for (let ii=1; ii<=numberOfDays; ii++){
             const td=document.createElement('td');
             tr.appendChild(td);
             td.classList.add('cell')
         }
-    }  
+    });
 }
