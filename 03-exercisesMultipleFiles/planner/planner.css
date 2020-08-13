@@ -1,7 +1,7 @@
 
 #table {
-    background-color: rgb(179, 185, 194)
-    border-spacing: 0;
+    background-color: whitesmoke;
+    border-collapse: collapse;
 }
 
 
@@ -24,11 +24,16 @@ tr>th {
     min-width: 80px;
 }
 
-.roomType {
+.room-type {
     background-color: lightgray;
     border: 1px gray solid;
 }
 
+.floor {
+    background-color:lightblue;
+    border: 1px blue solid;
+    min-width: 80px;
+}
 #table-head-line>th {
     font-size: 12px;
     background-color: lightskyblue;
