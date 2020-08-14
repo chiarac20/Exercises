@@ -1,121 +1,121 @@
-import { ROOM_FLOORS, ROOM_TYPE } from './roomLabels';
+import { ROOM_FLOOR, ROOM_TYPE } from './roomLabels';
 
 const ROOM_INFO = [{
     id: 1,
     type: ROOM_TYPE.DELUXE_KING,
-    floor: ROOM_FLOORS.LOWER_GROUND
+    floor: ROOM_FLOOR.LOWER_GROUND
 }, {
     id: 3,
-    type: 'DLXK',
-    floor: ROOM_FLOORS.LOWER_GROUND
+    type: ROOM_TYPE.DELUXE_KING,
+    floor: ROOM_FLOOR.LOWER_GROUND
 }, {
     id: 4,
-    type: 'STSB',
-    floor: ROOM_FLOORS.LOWER_GROUND
+    type: ROOM_TYPE.SINGLE,
+    floor: ROOM_FLOOR.LOWER_GROUND
 }, {
     id: 6,
-    type: 'STDB',
-    floor:'Ground'
+    type: ROOM_TYPE.DOUBLE,
+    floor:ROOM_FLOOR.GROUND
 }, {
     id: 7,
-    type: 'DLXQ',
-    floor:'Ground'
+    type: ROOM_TYPE.DELUXE_QUEEN,
+    floor:ROOM_FLOOR.GROUND
 }, {
     id: 8,
-    type: 'STDB',
-    floor:'Ground'
+    type: ROOM_TYPE.DOUBLE,
+    floor:ROOM_FLOOR.GROUND
 }, {
     id: 9,
-    type: 'DLXK',
-    floor:'Ground'
+    type: ROOM_TYPE.DELUXE_KING,
+    floor:ROOM_FLOOR.GROUND
 }, {
     id: 10,
-    type: 'STDB',
-    floor:'Ground-First'
+    type: ROOM_TYPE.DOUBLE,
+    floor:ROOM_FLOOR.MEZZANINE
 }, {
     id: 11,
-    type: 'JS',
-    floor:'First'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.FIRST
 }, {
     id: 12,
-    type: 'STSB',
-    floor:'First'
+    type: ROOM_TYPE.SINGLE,
+    floor:ROOM_FLOOR.FIRST
 }, {
     id: 14,
-    type: 'DLXK',
-    floor:'First'
+    type: ROOM_TYPE.DELUXE_KING,
+    floor:ROOM_FLOOR.FIRST
 }, {
     id: 15,
-    type: 'STDB',
-    floor:'First'
+    type: ROOM_TYPE.DOUBLE,
+    floor: ROOM_FLOOR.FIRST
 }, {
     id: 16,
-    type: 'DLXK',
-    floor:'Ground-First'
+    type: ROOM_TYPE.DELUXE_KING,
+    floor: ROOM_FLOOR.MEZZANINE
 }, {
     id: 21,
-    type: 'JS',
-    floor:'Second'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.SECOND
 }, {
     id: 22,
-    type: 'STSB',
-    floor:'Second'
+    type: ROOM_TYPE.SINGLE,
+    floor: ROOM_FLOOR.SECOND
 }, {
     id: 23,
-    type: 'STDB',
-    floor:'Second'
+    type: ROOM_TYPE.DOUBLE,
+    floor: ROOM_FLOOR.SECOND
 }, {
     id: 24,
-    type: 'JS',
-    floor:'Second'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.SECOND
 }, {
     id: 31,
-    type: 'JS',
-    floor:'Third'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.THIRD
 }, {
     id: 32,
-    type: 'STDB',
-    floor:'Third'
+    type: ROOM_TYPE.DOUBLE,
+    floor: ROOM_FLOOR.THIRD
 }, {
     id: 33,
-    type: 'JS',
-    floor:'Third'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.THIRD
 }, {
     id: 34,
-    type: 'STDB',
-    floor:'Third'
+    type: ROOM_TYPE.DOUBLE,
+    floor: ROOM_FLOOR.THIRD
 }, {
     id: 41,
-    type: 'JS',
-    floor:'Fourth'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.FOURTH
 }, {
     id: 42,
-    type: 'STDB',
-    floor:'Fourth'
+    type: ROOM_TYPE.DOUBLE,
+    floor: ROOM_FLOOR.FOURTH
 }, {
     id: 43,
-    type: 'JS',
-    floor:'Fourth'
+    type: ROOM_TYPE.JUNIOR_SUITE,
+    floor: ROOM_FLOOR.FOURTH
 }, {
     id: 44,
-    type: 'STDB',
-    floor:'Fourth'
+    type: ROOM_TYPE.DOUBLE,
+    floor: ROOM_FLOOR.FOURTH
 }, {
     id: 51,
-    type: 'DLXK',
-    floor:'Fifth'
+    type: ROOM_TYPE.DELUXE_KING,
+    floor: ROOM_FLOOR.FIFTH
 }, {
     id: 52,
-    type: 'STSB',
-    floor:'Fifth'
+    type: ROOM_TYPE.SINGLE,
+    floor: ROOM_FLOOR.FIFTH
 }, {
     id: 53,
-    type: 'DLXK',
-    floor:'Fifth'
+    type: ROOM_TYPE.DELUXE_KING,
+    floor: ROOM_FLOOR.FIFTH
 }, {
     id: 54,
-    type: 'DLXQ',
-    floor:'Fifth'
+    type: ROOM_TYPE.DELUXE_QUEEN,
+    floor: ROOM_FLOOR.FIFTH
 }
 ];
 
