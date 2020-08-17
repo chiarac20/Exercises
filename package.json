@@ -1,8 +1,10 @@
 {
   "devDependencies": {
+    "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
   },
   "scripts": {
-    "start": "parcel 03-exercisesMultipleFiles/planner/index.html --open"
+    "dev": "parcel 03-exercisesMultipleFiles/planner/index.html --open",
+    "build": "parcel build 03-exercisesMultipleFiles/planner/index.html"
   }
 }
