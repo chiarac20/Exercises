@@ -1,9 +1,10 @@
 
+$head-min-width: 80px;
+
 #table {
     background-color: whitesmoke;
     border-collapse: collapse;
 }
-
 
 .cell {
     border: 1px lightblue solid;
@@ -21,7 +22,7 @@ tr>th {
 .room-number {
     background-color:lightblue;
     border: 1px blue solid;
-    min-width: 80px;
+    min-width: $head-min-width;
 }
 
 .room-type {
@@ -32,7 +33,7 @@ tr>th {
 .floor {
     background-color:lightblue;
     border: 1px blue solid;
-    min-width: 80px;
+    min-width: $head-min-width;
 }
 #table-head-line>th {
     font-size: 12px;
