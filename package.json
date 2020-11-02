@@ -6,5 +6,21 @@
   "scripts": {
     "dev": "parcel 03-exercisesMultipleFiles/planner/index.html --open",
     "build": "parcel build 03-exercisesMultipleFiles/planner/index.html"
-  }
+  },
+  "name": "Exercises",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiarac20/Exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiarac20/Exercises/issues"
+  },
+  "homepage": "https://github.com/chiarac20/Exercises#readme"
 }
